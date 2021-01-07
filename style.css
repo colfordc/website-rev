@@ -8,28 +8,32 @@
 }
 p {
 	font-family: akz-reg, sans-serif;
-	font-size: 15px;
+	font-size: 20px;
 }
 
 h1 {
-	font-family: akz-med, sans-serif;
-	font-size: 24px;
+	font-family: akz-reg, sans-serif;
+	font-size: 32px;
 	font-weight: normal;
 }
 
 h2 {
 	font-family: akz-med, sans-serif;
-	font-size: 18px;
+	font-size: 24px;
 	font-weight: normal;
 }
 
 
-.project {
-	width: 800px;
+.container {
+	width: 900px;
 	margin: 0 auto;
 }
 
 .image {
-	width: 800px;
+	width: 900px;
+}
+
+.grid-image {
+	width: 297px;
 }
 
