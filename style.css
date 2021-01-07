@@ -1,16 +1,24 @@
+@font-face {
+	src: url(fonts/AkzidenzGroteskPro-Regular.otf);	
+	font-family: akz-reg;
+}
+@font-face {
+	src: url(fonts/AkzidenzGroteskPro-Md.otf);	
+	font-family: akz-med;
+}
 p {
-	font-family: Akzidenz-Grotesk Pro, sans-serif;
+	font-family: akz-reg, sans-serif;
 	font-size: 15px;
 }
 
 h1 {
-	font-family: Akzidenz-Grotesk Pro, sans-serif;
+	font-family: akz-med, sans-serif;
 	font-size: 24px;
 	font-weight: normal;
 }
 
 h2 {
-	font-family: Akzidenz-Grotesk Pro, sans-serif;
+	font-family: akz-med, sans-serif;
 	font-size: 18px;
 	font-weight: normal;
 }
