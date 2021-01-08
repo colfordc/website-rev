@@ -23,6 +23,24 @@ h2 {
 	font-weight: normal;
 }
 
+h3 {
+	font-family: akz-reg, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+h4 {
+	font-family: akz-reg, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+a{
+	color: #C57B67;
+	text-decoration: none;
+}
+
+
 
 .container {
 	width: 900px;
@@ -36,4 +54,51 @@ h2 {
 .grid-image {
 	width: 297px;
 }
+
+.project-image-left{
+	height: 650px;
+	padding-right: 17px;
+}
+
+.project-image-right{
+	height: 650px;
+	padding-left: 17px;
+}
+
+.cycle-slideshow{
+	height: 650px;
+		margin: 0 auto;
+	padding: 0;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+.cycle-next{
+	z-index: 3000;
+	width: 50%;
+	position: absolute;
+	height: 100%;
+	top: 0;
+	right: 0;
+	cursor: e-resize;
+	padding: 0;
+	mix-blend-mode: difference;
+}
+
+.cycle-prev{
+	z-index: 3000;
+	width: 50%;
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: 0;
+	cursor: w-resize;
+	padding: 0;
+	mix-blend-mode: difference;
+}
+
+
+
+
+
 
