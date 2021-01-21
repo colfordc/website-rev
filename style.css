@@ -40,15 +40,28 @@ a{
 	text-decoration: none;
 }
 
-
+.container-home {
+	width: 1200px;
+	margin: 0 auto;
+}
 
 .container {
 	width: 900px;
 	margin: 0 auto;
 }
 
+.container-description{
+	width: 600px;
+	align-content: left;
+}
+
 .image {
 	width: 900px;
+}
+
+.image-full {
+	width: 1500px;
+	align-content: center;
 }
 
 .grid-image {
@@ -63,6 +76,16 @@ a{
 .project-image-right{
 	height: 650px;
 	padding-left: 17px;
+}
+
+.project-image-left-2{
+	height: 650px;
+	padding-right: 14px;
+}
+
+.project-image-right-2{
+	height: 650px;
+	padding-left: 14px;
 }
 
 .album-left{
