@@ -41,8 +41,9 @@ a{
 }
 
 .container-home {
-	width: 85%;
-	margin: auto;
+	margin: 0 auto;
+	width: 90%;
+	padding-left: 2%;
 }
 
 .container {
@@ -70,7 +71,10 @@ a{
 
 .grid-image {
 	width: 24%;
-	margin: auto;
+	position: center;
+	padding: .1%;
+	
+
 }
 
 .project-image-left{
