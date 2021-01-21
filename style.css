@@ -47,7 +47,7 @@ a{
 }
 
 .container {
-	width: 900px;
+	width: 70%;
 	margin: 0 auto;
 }
 
@@ -57,11 +57,11 @@ a{
 }
 
 .image {
-	width: 900px;
+	width: 100%;
 }
 
 .image-full {
-	width: 1500px;
+	width: 100%;
 	align-content: center;
 }
 
@@ -73,30 +73,18 @@ a{
 	width: 24%;
 	position: center;
 	padding: .1%;
-	
-
 }
 
 .project-image-left{
-	height: 650px;
-	padding-right: 17px;
+	width: 48%;
+	height: auto;
 }
 
 .project-image-right{
-	height: 650px;
-	padding-left: 17px;
+	width: 48%;
+	height: auto;
+	float: right;
 }
-
-.project-image-left-2{
-	height: 650px;
-	padding-right: 14px;
-}
-
-.project-image-right-2{
-	height: 650px;
-	padding-left: 14px;
-}
-
 
 
 
