@@ -64,6 +64,10 @@ a{
 	align-content: center;
 }
 
+.image-small {
+	width: 150px;
+}
+
 .grid-image {
 	width: 297px;
 }
@@ -87,6 +91,9 @@ a{
 	height: 650px;
 	padding-left: 14px;
 }
+
+
+
 
 .album-left{
 	height: 400px;
