@@ -42,8 +42,8 @@ a{
 
 .container-home {
 	margin: 0 auto;
-	width: 90%;
-	padding-left: 2%;
+	width: 80%;
+	
 }
 
 .container {
@@ -86,17 +86,6 @@ a{
 	float: right;
 }
 
-
-
-.album-left{
-	height: 400px;
-	padding-right: 17px;
-}
-
-.album-right{
-	height: 400px;
-	padding-left: 17px;
-}
 
 
 
