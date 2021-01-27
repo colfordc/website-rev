@@ -15,6 +15,7 @@ h1 {
 	font-family: akz-reg, sans-serif;
 	font-size: 32px;
 	font-weight: normal;
+	font-color: black;
 }
 
 h2 {
@@ -69,11 +70,19 @@ a{
 	line-height: 16px;
 }
 
+.sidenav h1{
+	text-decoration: none;
+	font-size: 18px !important;
+	font-color: black !important;
+}
+
 .sidenav a{
 	text-decoration: none;
 	font-size: 13px;
 	display: block;
 }
+
+
 
 .sidenav p{
 	font-size: 13px;
@@ -89,16 +98,14 @@ a{
 }
 
 .container-home {
-	margin-left: 20%;
+	margin-left: 25%;
 	padding-top: 25px;
-	
-	
 }
 
 .container {
-	margin-left: 200px;
+	margin-left: 25%;
+	padding-top: 25px;
 	width: 70%;
-	
 }
 
 .container-description{
