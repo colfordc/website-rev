@@ -35,20 +35,70 @@ h4 {
 	font-weight: normal;
 }
 
+h5 {
+	font-family: akz-reg, sans-serif;
+	line-height: 0;
+	font-size: 24px;
+	font-weight: medium;
+	letter-spacing: .35px;
+}
+
+h6 {
+	font-family: akz-reg, sans-serif;
+	line-height: .5;
+	font-size: 14px;
+	font-weight: normal;
+}
+
 a{
 	color: #C57B67;
 	text-decoration: none;
 }
 
+.sidenav {
+	height: 100%;
+	width: 15%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	padding-top: 15px;
+	padding-left: 30px;
+	font-family: akz-reg, sans-serif;
+	line-height: 16px;
+}
+
+.sidenav a{
+	text-decoration: none;
+	font-size: 13px;
+	display: block;
+}
+
+.sidenav p{
+	font-size: 13px;
+	line-height: initial;
+
+}
+
+.sidenav h1{
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: .35px;
+	line-height: initial;
+}
+
 .container-home {
-	margin: 0 auto;
-	width: 80%;
+	margin-left: 20%;
+	padding-top: 25px;
+	
 	
 }
 
 .container {
+	margin-left: 200px;
 	width: 70%;
-	margin: 0 auto;
+	
 }
 
 .container-description{
