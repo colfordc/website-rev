@@ -70,19 +70,6 @@ a{
 	line-height: 16px;
 }
 
-.sidenav h1{
-	text-decoration: none;
-	font-size: 18px !important;
-	font-color: black !important;
-}
-
-.sidenav a{
-	text-decoration: none;
-	font-size: 13px;
-	display: block;
-}
-
-
 
 .sidenav p{
 	font-size: 13px;
@@ -95,11 +82,13 @@ a{
 	font-weight: bold;
 	letter-spacing: .35px;
 	line-height: initial;
+	font-color: black !important;
 }
 
 .container-home {
 	margin-left: 25%;
 	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 .container {
@@ -127,7 +116,7 @@ a{
 }
 
 .grid-image {
-	width: 24%;
+	width: 32%;
 	position: center;
 	padding: .1%;
 }
