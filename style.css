@@ -52,13 +52,23 @@ h6 {
 }
 
 a{
-	color: #C57B67;
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #af9d8f;
+	text-decoration: none;
+}
+
+.nav{
+	color: #af9d8f;
 	text-decoration: none;
 }
 
 .sidenav {
 	height: 100%;
-	width: 15%;
+	width: 175px;
 	position: fixed;
 	z-index: 1;
 	top: 0;
@@ -86,13 +96,13 @@ a{
 }
 
 .container-home {
-	margin-left: 25%;
+	margin-left: 250px;
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
 
 .container {
-	margin-left: 25%;
+	margin-left: 250px;
 	padding-top: 25px;
 	width: 70%;
 }
