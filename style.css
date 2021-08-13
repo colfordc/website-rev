@@ -121,13 +121,13 @@ header a:hover{
 
 
 
-@media only screen and (max-device-width: 600px){
+@media (max-device-width: 400px){
 	.two-col div{
 		float: none;
 		width: auto;
 }
 
-@media only screen and (max-device-width: 600px){
+@media (max-device-width: 400px){
 	.container{
 		width:  95%;
 	}
