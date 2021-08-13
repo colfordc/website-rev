@@ -117,6 +117,18 @@ header a:hover{
 	}
 }
 
+@media (max-device-width: 600px){
+	.two-col div{
+		float: none;
+		width: auto;
+	}
+	.container{
+		width:  95%;
+	}
+	.image-portrait{
+		width:  100%;
+	}
+}
 
 
 
