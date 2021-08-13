@@ -104,13 +104,13 @@ header a:hover{
 
 
 
-@media only screen and (min-width:  390px) and (max-width: 767px){
+@media (max-width: 600px){
 	.two-col div{
 		float: none;
 		width: auto;
 }
 
-@media only screen and (min-width:  390px) and (max-width: 767px){
+@media (max-width: 600px){
 	.container{
 		width:  95%;
 	}
@@ -118,6 +118,25 @@ header a:hover{
 		width:  100%;
 	}
 }
+
+
+
+@media only screen and (max-device-width: 600px){
+	.two-col div{
+		float: none;
+		width: auto;
+}
+
+@media only screen and (max-device-width: 600px){
+	.container{
+		width:  95%;
+	}
+	.image-portrait{
+		width:  100%;
+	}
+}
+
+
 
 
 /*
