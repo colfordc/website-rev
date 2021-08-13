@@ -41,6 +41,7 @@ header a:hover{
 
 .square{
 	color:  red;
+	font-size:  125%;
 }
 
 .triangle{
@@ -81,6 +82,10 @@ header a:hover{
 
 .two-col p{
 	line-height: 1.25;
+}
+
+.two-col h2{
+	line-height:  34px;
 }
 
 
