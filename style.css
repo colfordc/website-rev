@@ -119,26 +119,6 @@ header a:hover{
 
 
 
-@media (max-device-width: 600px){
-	body{
-		font-size:  80px;
-	}
-
-	.two-col div{
-		float: none;
-		width: auto;
-	}
-
-	.container{
-		width:  95%;
-	}
-	.image-portrait{
-		width:  100%;
-	}
-}
-
-
-
 
 /*
 p {
