@@ -108,9 +108,7 @@ header a:hover{
 	.two-col div{
 		float: none;
 		width: auto;
-}
-
-@media (max-width: 600px){
+	}
 	.container{
 		width:  95%;
 	}
@@ -121,13 +119,12 @@ header a:hover{
 
 
 
-@media (max-device-width: 400px){
+@media (max-device-width: 600px){
 	.two-col div{
 		float: none;
 		width: auto;
-}
+	}
 
-@media (max-device-width: 400px){
 	.container{
 		width:  95%;
 	}
