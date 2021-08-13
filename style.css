@@ -128,6 +128,11 @@ header a:hover{
 	.image-portrait{
 		width:  100%;
 	}
+
+	body{
+		font-family:  Helvetica, sans-serif;
+		font-size:  20px;
+	}
 }
 
 
