@@ -104,13 +104,13 @@ header a:hover{
 
 
 
-@media (max-width: 600px){
+@media (max-width: 800px){
 	.two-col div{
 		float: none;
 		width: auto;
 }
 
-@media (max-width: 600px){
+@media (max-width: 800px){
 	.container{
 		width:  95%;
 	}
