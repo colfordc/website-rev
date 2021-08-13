@@ -6,10 +6,128 @@
 	src: url(fonts/AkzidenzGroteskPro-Md.otf);	
 	font-family: akz-med;
 }
+
+
+body{
+	font-family: akz-reg, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.45;
+}
+
+header{
+	padding: 2%;
+	overflow: hidden;
+}
+
+header h1{
+	float: left;
+}
+
+header nav{
+	float: right;
+}
+
+header a{
+	text-decoration: none;
+	color:  black;
+}
+
+header a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+.square{
+	color:  red;
+}
+
+.triangle{
+	color:  #F3D500;
+	font-size:  85%;
+}
+
+.circle{
+	color:  blue;
+	font-size:  125%;
+}
+
+
+
+
+.two-col{
+	overflow: hidden;
+}
+
+.two-col div{
+	width: 46%;
+	margin: 0 2% 4% 2%;
+	float: left;
+}
+
+.two-col img{
+	width: 100%;
+}
+
+.two-col a{
+	color: black;
+	text-decoration: none;
+}
+
+.two-col a:hover{
+	text-decoration: underline;
+}
+
+.two-col p{
+	line-height: 1.25;
+}
+
+
+
+.container{
+	width:  65%;
+	margin:  auto;
+}
+
+.image{
+	width:  100%;
+}
+
+.image-portrait{
+	width:  50%;
+}
+
+.container a{
+	color:  black;
+}
+
+
+
+@media (max-width: 600px){
+	.two-col div{
+		float: none;
+		width: auto;
+}
+
+@media (max-width: 600px){
+	.container{
+		width:  95%;
+	}
+	.image-portrait{
+		width:  100%;
+	}
+	}
+}
+
+
+/*
 p {
 	font-family: akz-reg, sans-serif;
 	font-size: 20px;
 }
+
+
 
 h1 {
 	font-family: akz-reg, sans-serif;
@@ -140,6 +258,12 @@ a:hover{
 	width: 48%;
 	height: auto;
 	float: right;
+}
+
+@media (max-width: 600px){
+	body{
+		font-size: 50px;
+	}
 }
 
 
