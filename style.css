@@ -10,8 +10,16 @@
 
 body{
 	font-family: akz-reg, Helvetica, sans-serif;
-	font-size: 16px;
-	line-height: 1.45;
+	font-size: 14px;
+	line-height: 1.35;
+}
+
+h1{
+	font-size: 20px;
+}
+
+h2{
+	font-size: 20px;
 }
 
 header{
@@ -57,15 +65,21 @@ header a:hover{
 
 
 
+.one-col div{
+	width:  60%;
+	margin: 0 2% 4% 2%;
+}
+
+
+
 .two-col{
 	overflow: hidden;
 }
 
 .two-col div{
-	width: 46%;
+	width: 29%;
 	margin: 0 2% 4% 2%;
-	float: left;
-}
+	float:  left}
 
 .two-col img{
 	width: 100%;
@@ -80,13 +94,7 @@ header a:hover{
 	text-decoration: underline;
 }
 
-.two-col p{
-	line-height: 1.25;
-}
 
-.two-col h2{
-	line-height:  34px;
-}
 
 
 
@@ -100,7 +108,7 @@ header a:hover{
 }
 
 .image-portrait{
-	width:  50%;
+	width:  46%;
 }
 
 .container a{
