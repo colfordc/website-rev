@@ -28,12 +28,13 @@ header{
 	overflow: hidden;
 }
 
-header nav{
-	float: right;
+header h2{
+	float:  left;
+	font-size: 20px;
 }
 
-header h2{
-	font-size: 20px;
+header nav{
+	float: right;
 }
 
 header a{
@@ -80,7 +81,7 @@ header a:hover{
 .two-col div{
 	width: 29%;
 	margin: 0 2% 4% 2%;
-	float:  left}
+	float: left}
 
 .two-col img{
 	width: 100%;
